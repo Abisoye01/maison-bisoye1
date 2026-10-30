@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maison bisoye | Luxury Perfume</title>
+    <meta name="description" content="Luxury fragrance boutique with premium perfumes, global pricing, and a complete shopping cart experience." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="topbar">
+      <div class="container navbar">
+        <div class="brand">
+          <div class="brand-mark">M</div>
+          <span>Maison bisoye</span>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="cart.html">Cart</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <select class="currency-select" aria-label="Currency selector">
+            <option value="NGN">NGN</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+            <option value="AED">AED</option>
+            <option value="CAD">CAD</option>
+            <option value="JPY">JPY</option>
+            <option value="INR">INR</option>
+            <option value="ZAR">ZAR</option>
+          </select>
+          <a href="cart.html" class="cart-pill">Cart <span class="cart-count" data-cart-count>0</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <div class="kicker">Boutique fragrance house</div>
+            <h1>Luxury in every bottle.</h1>
+            <p>Crafted with rare ingredients, elegant identity, and a scent story designed to linger beautifully from the first note to the final trail.</p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="products.html">Shop collection</a>
+              <a class="btn btn-secondary" href="products.html#featured">Explore bestsellers</a>
+            </div>
+
+            <div class="hero-stats">
+              <div>
+                <strong>50+</strong>
+                <span>Perfume designs</span>
+              </div>
+              <div>
+                <strong>4.9/5</strong>
+                <span>Client rating</span>
+              </div>
+              <div>
+                <strong id="summaryAmount">₦1,200.00</strong>
+                <span>Average spend</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-card">
+              <img class="hero-image" src="https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=1200&q=80" alt="Luxury perfume bottles" />
+            </div>
+            <div class="float-badge one">
+              <div>Signature drop</div>
+              <div class="badge-amount">₦96,000</div>
+            </div>
+            <div class="float-badge two">
+              <div>Best seller</div>
+              <div class="badge-amount">Velvet Rose</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="kicker">Our promise</div>
+              <h2 class="section-title">Why clients choose Maison bisoye</h2>
+            </div>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon">✦</div>
+              <h3>Premium craftsmanship</h3>
+              <p>Every fragrance is carefully composed with rare notes and refined concentration for a luxury finish.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">◎</div>
+              <h3>Global pricing</h3>
+              <p>Prices are translated instantly into major currencies, including NGN, USD, GBP, EUR, and more.</p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon">⏱</div>
+              <h3>Fast client-ready experience</h3>
+              <p>Designed to feel premium, trustworthy, and easy to present to potential customers and retail partners.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="featured">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="kicker">Curated picks</div>
+              <h2 class="section-title">Most loved fragrances</h2>
+            </div>
+            <a class="section-link" href="products.html">View all</a>
+          </div>
+
+          <div class="collection-grid">
+            <article class="collection-card">
+              <img src="https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=900&q=80" alt="Velvet Rose" />
+              <h3>Velvet Rose</h3>
+              <p>Rose, amber, musk</p>
+              <div class="meta-row">
+                <span class="price-tag" data-product-price="1">₦0.00</span>
+                <button class="btn btn-primary" data-add-cart="1">Add</button>
+              </div>
+            </article>
+
+            <article class="collection-card">
+              <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=900&q=80" alt="Noir Elixir" />
+              <h3>Noir Elixir</h3>
+              <p>Bergamot, cedar, sandalwood</p>
+              <div class="meta-row">
+                <span class="price-tag" data-product-price="2">₦0.00</span>
+                <button class="btn btn-primary" data-add-cart="2">Add</button>
+              </div>
+            </article>
+
+            <article class="collection-card">
+              <img src="https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=80" alt="Golden Oud" />
+              <h3>Golden Oud</h3>
+              <p>Oud, saffron, vanilla</p>
+              <div class="meta-row">
+                <span class="price-tag" data-product-price="3">₦0.00</span>
+                <button class="btn btn-primary" data-add-cart="3">Add</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <div class="kicker">Stay in touch</div>
+              <h2 class="section-title">Get private fragrance updates</h2>
+            </div>
+          </div>
+
+          <form id="emailCaptureForm" class="newsletter-box">
+            <input type="email" id="subscriberEmail" placeholder="Enter your email" required />
+            <button type="submit" class="btn btn-primary">Join now</button>
+          </form>
+          <p id="newsletterStatus" class="newsletter-status"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand">
+            <div class="brand-mark">M</div>
+            <span>Maison bisoye</span>
+          </div>
+          <p>Luxury scents for people who want lasting impact and elevated presence.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <p><a href="products.html">Shop</a></p>
+          <p><a href="cart.html">Cart</a></p>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <p><a href="#">Client care</a></p>
+          <p><a href="#">Shipping</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

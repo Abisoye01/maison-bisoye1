@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart | Maison bisoye</title>
+    <meta name="description" content="Luxury fragrance cart with quantity updates, dynamic pricing, and multi-currency checkout summary." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="cart">
+    <header class="topbar">
+      <div class="container navbar">
+        <div class="brand">
+          <div class="brand-mark">M</div>
+          <span>Maison bisoye</span>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="cart.html">Cart</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <select class="currency-select" aria-label="Currency selector">
+            <option value="NGN">NGN</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+            <option value="AED">AED</option>
+            <option value="CAD">CAD</option>
+            <option value="JPY">JPY</option>
+            <option value="INR">INR</option>
+            <option value="ZAR">ZAR</option>
+          </select>
+          <a href="cart.html" class="cart-pill">Cart <span class="cart-count" data-cart-count>0</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">Your order</div>
+            <h1 class="section-title">Shopping cart</h1>
+          </div>
+        </div>
+
+        <div class="cart-layout">
+          <div class="cart-card">
+            <table class="cart-table">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Price</th>
+                  <th>Qty</th>
+                  <th>Total</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="cartTableBody"></tbody>
+            </table>
+          </div>
+
+          <aside class="summary-card">
+            <h3>Order summary</h3>
+            <div id="cartSummary"></div>
+            <div id="demoPaymentBlock"></div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand">
+            <div class="brand-mark">M</div>
+            <span>Maison bisoye</span>
+          </div>
+          <p>Luxury fragrance shopping made elegant, practical, and ready for clients.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="products.html">Shop</a></p>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <p><a href="#">Wholesales</a></p>
+          <p><a href="#">Delivery</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

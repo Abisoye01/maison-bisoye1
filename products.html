@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Perfumes | Maison bisoye</title>
+    <meta name="description" content="Explore 50 luxury perfume options with premium market pricing and multi-currency conversion." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="catalog">
+    <header class="topbar">
+      <div class="container navbar">
+        <div class="brand">
+          <div class="brand-mark">M</div>
+          <span>Maison bisoye</span>
+        </div>
+
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Shop</a></li>
+            <li><a href="cart.html">Cart</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-actions">
+          <select class="currency-select" aria-label="Currency selector">
+            <option value="NGN">NGN</option>
+            <option value="USD">USD</option>
+            <option value="GBP">GBP</option>
+            <option value="EUR">EUR</option>
+            <option value="AED">AED</option>
+            <option value="CAD">CAD</option>
+            <option value="JPY">JPY</option>
+            <option value="INR">INR</option>
+            <option value="ZAR">ZAR</option>
+          </select>
+          <a href="cart.html" class="cart-pill">Cart <span class="cart-count" data-cart-count>0</span></a>
+        </div>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="kicker">Luxury collection</div>
+            <h1 class="section-title">Fragrance library</h1>
+          </div>
+        </div>
+
+        <div id="productDetail"></div>
+
+        <div class="products-shell">
+          <div class="products-toolbar">
+            <div class="filter-group">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="women">Women</button>
+              <button class="filter-btn" data-filter="men">Men</button>
+              <button class="filter-btn" data-filter="unisex">Unisex</button>
+            </div>
+          </div>
+
+          <div id="productGrid" class="product-grid"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand">
+            <div class="brand-mark">M</div>
+            <span>Maison bisoye</span>
+          </div>
+          <p>Curated fragrances with global luxury pricing and modern retail presentation.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="cart.html">Cart</a></p>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <p><a href="#">Wholesale</a></p>
+          <p><a href="#">Client care</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
